@@ -1,0 +1,88 @@
+html    {   font: 100%/1.5 Arial, sans-serif;       }
+p { line-height: 1.5;
+    margin: 0 0 1em;    }
+    
+.indent p+p {   text-indent: 2em;
+                margin-top: -1em;   }
+   
+code,
+pre     {   font-family: monospace, serif;
+            font-size: 1em;
+ }            
+ blockquote {
+ font-style: italic; 
+}
+ 
+blockquote:before { 
+ content: "\201C";
+ display: inline-block;
+ padding-right: .4em;
+}
+
+
+ header h1 {
+     float:right;
+     margin-right:27%;
+     margin-top:-1.25em;
+     display:inline;
+     text-shadow: 4px 4px 0px hsla(140, 3%, 26%, 0.4);
+   }
+    header h4 {
+     float:right;
+     margin-right:2%;
+     margin-top:-5em;
+    text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
+     color:rgb(255,222,162);
+   }
+   header  span {
+     margin-left:43%;
+     font-size: 1em;
+    	  text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
+	position:relative;
+	top:-.88em;
+   }
+   aside h4 {
+  text-decoration:none;
+  text-align:center;
+}
+aside p {
+ padding-left:1em; 
+}
+
+section h1,h2,h3 {
+  text-align:center;
+  margin-bottom:0em;
+}
+
+
+article h1 {
+ color:rgb(255,222,162);
+ text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+ padding-left:2em;
+
+ 
+}
+article p{
+  font-size:.96em;
+  text-indent:1.5em;
+  padding-top:1em;
+}
+
+nav
+{
+  
+font-size: .861em;
+   margin-top: 0em;
+  margin-bottom:0em;
+  background: transparent;
+  padding-top:5px;
+}
+nav h3 {
+font-size: 1.17em;
+  
+}
+
+  nav a h4 {
+    text-decoration:none;
+    background:rgb(17,53,119);
+  }
