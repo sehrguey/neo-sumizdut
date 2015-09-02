@@ -221,6 +221,28 @@ article {
   section a:hover {
     text-decoration:underline;
   }
+  
+ .htooltip span { /* The appearance of our tooltip */
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 15px 15px 15px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-left: 2px;
+    margin-top: -75px;
+    opacity: 0; /* Make it transparent */
+    padding: 10px 10px 10px 40px;
+    position: absolute;
+    text-decoration: none;
+    visibility: hidden; /* and hidden */
+    width: 350px;
+    z-index: 10;
+}
+        
+.htooltip:hover span { /* show the tooltip when hover */
+    opacity: 1;
+    visibility: visible;
+}
+    
  
  nav ul {
    list-style: none;
@@ -418,13 +440,6 @@ footer a:active {
 footer a:hover {
 	color: rgb(255,255,255); text-decoration: underline;
 }
- .ficuses {
-  background:rgb(255,255,255) url('../img/rough_wall.png') top right repeat;
- 
- }
-.reverse {
-  color: rgb(255,255,255);
-}
 
 .box_1 {
   width:33%;
@@ -436,48 +451,6 @@ footer a:hover {
   text-align:center;
 }
 
-.a_box {
-  width:12em;
-  margin:0;
-}
-.a_small_box {
-  width:6em;
-   margin:0;
-}
-.centered {
-  text-align:center;
-  margin:auto;
- 
-}
-.shadow {
--ms-box-shadow: 0px 3px 5px rgb(17,73,119);
--moz-box-shadow: 0px 3px 5px rgb(17,73,119);
--webkit-box-shadow: 0px 3px 5px rgb(17,73,119);
-box-shadow: 0px 3px 5px rgb(17,73,119);
-padding-bottom:.4em;
-margin-left:24%;
-margin-right:10%;
-}
-.you_are_here {
-background:rgb(226,252,246);
-padding:8px;
-width:100%;
-margin-left:-2.86em;
-padding-right:3.36em;
-
-}
-.shadow nav {
-  padding:1em;
-}
-
-.round_corner_box {
-   -webkit-border-radius: 20px;
--moz-border-radius: 20px;
-border-radius: 20px;	
-background:rgb(226,252,245) ;	
-	float:left;
-  
-}
 .box_with_corner {
   background:rgb(255,255,255) url('../img/page_corner.gif') top right no-repeat;	
 	float:left;
@@ -487,6 +460,12 @@ background:rgb(226,252,245) ;
  font-family: Courier monospace serif;
  margin-left:1em;
 }
+
+.dream {
+  background:rgb(46,18,121);
+  padding:1em;
+}
+ 
 .featurebox_center {
   background-color: rgb(255,246,228);
   margin:0px;
@@ -497,6 +476,12 @@ background:rgb(226,252,245) ;
   line-height: 1.5em;
   color: rgb(51,51,51);
 }
+
+ .ficuses {
+  background:rgb(255,255,255) url('../img/rough_wall.png') top right repeat;
+ 
+ }
+
 .float_left {
   float: left;
   margin-right: 1.0416667%;
@@ -507,36 +492,7 @@ background:rgb(226,252,245) ;
   margin-left: 1.0416667%;
   padding: 8px;
 }
-
-.long_line {
-float:right;
-     margin-right:27%;
-     margin-top:-2.38em;
-     display:inline;
-     line-height:1.15em;
-text-shadow: 4px 4px 0px hsla(140, 3%, 26%, 0.4);
-  padding-top:.32em;
-}
-
-.very_long_line {
-float:right;
-     margin-right:22%;
-     margin-top:-2.899em;
-     margin-left:2em;
-     display:inline;
-     line-height:1.15em;
-text-shadow: 4px 4px 0px hsla(140, 3%, 26%, 0.4);
-  padding-top:.12em;
-}
-.span_in_v4_header {
-     margin-left:12.56%;
-     font-size: 1em;
-    	  text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
-	position:relative;
-	top:.98em;
-   }
-  
-     
+       
    .home_page_text {
     	position:relative;
 	top:5.98em;
@@ -544,9 +500,12 @@ text-shadow: 4px 4px 0px hsla(140, 3%, 26%, 0.4);
 	margin-left:3.6%;
 	 text-shadow: 1px 2px 0px rgba(30, 30, 30, 0.6);
    }
- .move_right {
-   margin-left:10em;
- }
+ 
+.reverse {
+  color: rgb(255,255,255);
+}
+
+
 .rotate_left
 {
 float:left;
@@ -565,11 +524,38 @@ float:right;
 -o-transform:rotate(-8deg); /* Opera */
 transform:rotate(-8deg);
 }
-.inline {
-  display:inline;
-  margin:.5em;
-  text-align:center;
+
+.round_corner_box {
+   -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;	
+background:rgb(226,252,245) ;	
+	float:left;
+ }
+
+
+.shadow {
+-ms-box-shadow: 0px 3px 5px rgb(17,73,119);
+-moz-box-shadow: 0px 3px 5px rgb(17,73,119);
+-webkit-box-shadow: 0px 3px 5px rgb(17,73,119);
+box-shadow: 0px 3px 5px rgb(17,73,119);
+padding-bottom:.4em;
+margin-left:24%;
+margin-right:10%;
 }
+
+.shadow nav {
+  padding:1em;
+}
+  
+
+.you_are_here {
+background:rgb(169,198,252);
+padding:8px;
+width:100%;
+}
+
+
 #beat {
    color:rgb(255,193,78);
     position: relative;
