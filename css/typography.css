@@ -10,7 +10,7 @@ pre     {   font-family: monospace, serif;
             font-size: 1em;
  }            
  blockquote {
- font-style: italic; 
+ font-family: Courier monospace; 
 }
  
 blockquote:before { 
