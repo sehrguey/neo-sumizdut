@@ -197,6 +197,16 @@ border-bottom-left-radius: 14px;
   background-size: auto auto;
 }
 
+aside hr {
+  display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+
 section {
   width: 76.05%;
    background: transparent;
@@ -206,6 +216,9 @@ section {
 
 article {
   margin-left: 22.16%;
+}
+article img {
+  width:100%;
 }
 
  a  {
