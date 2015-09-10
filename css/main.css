@@ -150,13 +150,7 @@ div {
      
    }
    
-   .white_shadow {
-  
-   text-shadow: 1px 1px 0.5px rgb(255,255,255);
-   font-family: Courier monospace serif;
-     
-  }
-  
+ 
  
 
    header nav {
@@ -207,6 +201,7 @@ aside hr {
     border-width: 2px;
 }
 
+
 section {
   width: 76.05%;
    background: transparent;
@@ -217,9 +212,7 @@ section {
 article {
   margin-left: 22.16%;
 }
-article img {
-  width:100%;
-}
+
 
  a  {
   text-decoration:none;
@@ -480,7 +473,7 @@ footer a:hover {
 }
  
 .featurebox_center {
-  background-color: rgb(255,246,228);
+ 
   margin:0px;
   padding:1em;
   border: 0.1625em solid rgb(223, 232.247);
@@ -488,12 +481,25 @@ footer a:hover {
   font-size:.85em;
   line-height: 1.5em;
   color: rgb(51,51,51);
+   border:1px dashed rgb(169,198,252) ;
+
+ font-family: Courier monospace serif;
+ margin-left:1em;
 }
 
  .ficuses {
   background:rgb(255,255,255) url('../img/rough_wall.png') top right repeat;
  
  }
+ .summer {
+  background:rgb(255,255,255) url('../img/paper_print.png') top right repeat;
+ 
+ }
+ .way_of_return {
+  background:rgb(255,255,255) url('../img/road.png') top right repeat;
+ 
+ }
+
 
 .float_left {
   float: left;
@@ -561,13 +567,173 @@ margin-right:10%;
   padding:1em;
 }
   
+  .white_shadow {
+  
+   text-shadow: 1px 1px 0.5px rgb(255,255,255);
+   font-family: Courier monospace serif;
+     }
 
+
+  
 .you_are_here {
 background:rgb(169,198,252);
 padding:8px;
 width:100%;
 }
 
+.rg-container {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	margin: 0;
+	padding: 1em 0;
+	color: #1a1a1a;
+}
+.rg-header {
+	margin-bottom: 1em;
+}
+.rg-hed {
+	font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.35em;
+	margin-bottom: 0.25em;
+}
+.rg-subhed {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+.rg-source-and-credit {
+	font-family: Georgia,"Times New Roman", Times,serif;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 1em;
+}
+.rg-source {
+	margin: 0;
+	float: left;
+	font-weight: bold;
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+.rg-source .pre-colon {
+	text-transform: uppercase;
+}
+/*styles for graphic*/
+table.rg-table {
+	margin: 0 0 1em 0;
+	width: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table.rg-table * {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: left;
+	color: #333;
+}
+table.rg-table thead {
+	border-bottom: 1px solid rgba(195,195,197,.3);
+}
+table.rg-table th {
+	font-weight: bold;
+	padding: 0.5em;
+	font-size: 0.85em;
+	line-height: 1.4;
+}
+table.rg-table td {
+	padding: 0.5em;
+	font-size: 0.9em;
+	line-height: 1.4;
+}
+table.rg-table .highlight td {
+	font-weight: bold;
+}
+table.rg-table tr {
+	border-bottom: 1px solid rgba(195,195,197,.3);
+	color: #222;
+}
+table.rg-table .number {
+	text-align: right;
+}
+table.rg-table.zebra tr:nth-child(even) {
+	background: rgba(195, 195, 197, 0.1);
+}
+table.rg-table tr.highlight {
+	background: #edece4;
+}
+@media screen and (max-width: 500px) {
+.rg-container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+table.rg-table {
+	display: block;
+	width: 100%;
+}
+table.rg-table tr.hide-mobile, table.rg-table th.hide-mobile, table.rg-table td.hide-mobile {
+	display: none;
+}
+table.rg-table thead {
+	display: none;
+}
+table.rg-table tbody {
+	display: block;
+	width: 100%;
+}
+table.rg-table td:last-child {
+	padding-right: 0;
+	border-bottom: 2px solid #ccc;
+}
+table.rg-table tr, table.rg-table th, table.rg-table td {
+	display: block;
+	padding: 0;
+}
+table.rg-table td[data-title]:before {
+	content: attr(data-title) ":A0";
+	font-weight: bold;
+	display: inline-block;
+	content: attr(data-title);
+	float: left;
+	margin-right: 0.5em;
+	font-size: 0.95em;
+}
+table.rg-table tr {
+	border-bottom: none;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0;
+}
+table.rg-table tr:nth-child(even) {
+	background: none;
+}
+table.rg-table td {
+	padding: 0.5em 0 0.25em 0;
+	border-bottom: 1px dotted #ccc;
+	text-align: right;
+}
+table.rg-table td:empty {
+	display: none;
+}
+table.rg-table .highlight td {
+	background: none;
+}
+table.rg-table tr.highlight {
+	background: none;
+}
+table.rg-table.zebra tr:nth-child(even) {
+	background: none;
+}
+table.rg-table.zebra td:nth-child(even) {
+	background: rgba(195, 195, 197, 0.1);
+}
+}
 
 #beat {
    color:rgb(255,193,78);
