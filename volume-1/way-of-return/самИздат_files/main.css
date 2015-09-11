@@ -1,0 +1,957 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: rgb(34,34,34);
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: rgb(179,212,252);
+    text-shadow: none;
+}
+
+::selection {
+    background: rgb(179,212,252);
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(194,202,209);
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+<nav role="navigation">,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: rgb(194,202,209);
+    color: rgb(194,202,209)
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  text-align: center;
+  margin-top:1.0416667%;
+  margin-bottom:1.0416667%;
+  color:rgb(102,102,102);
+  background-color: rgb(224,224,224);
+
+}
+img {
+  max-width:100%;
+}
+
+#wrapper {
+ margin-right: auto;
+margin-left: auto;
+width: 98%;
+  text-align: left;
+  background:rgb(255,255,255);
+  border: 0.5em solid rgb(255,255,255);
+  max-width:1414px;
+ 
+}
+
+
+section, article, header, footer, nav, aside, hgroup {
+ display: block;
+} 
+header {
+  background:rgb(169,198,252) url('../img/header_bg.png') top right no-repeat;
+   color:  rgb(17,53,119);
+       border-bottom: 1px solid rgb(17,53,119);
+       margin-bottom:.45em;
+       padding-bottom:.21em;
+       -moz-border-radius-topright: 34px;
+-webkit-border-top-right-radius: 34px;
+border-top-right-radius: 34px;
+ -moz-border-radius-bottomleft: 34px;
+-webkit-border-bottom-left-radius: 34px;
+border-bottom-left-radius: 34px;
+margin-bottom:.8em;
+   }
+ 
+div {
+  margin-top:.4em;
+  width:100%;
+  margin:auto;
+}
+   
+   
+   header img{
+     padding-bottom:46px;
+     margin-left:6px;
+     margin-right:0em;
+     
+   }
+   
+ 
+ 
+
+   header nav {
+     font-size:1em;
+     margin-bottom: -3px;
+     
+   }
+aside {
+  background:  rgba(64,208,168,0.5);
+  width: 22.15%;
+  float: left;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+ 
+  border: none;
+   -moz-border-radius-topright: 14px;
+-webkit-border-top-right-radius: 14px;
+border-top-right-radius: 14px;
+ -moz-border-radius-bottomleft: 14px;
+-webkit-border-bottom-left-radius: 14px;
+border-bottom-left-radius: 14px;
+  color: rgba(101,84,147,1);
+  text-align: left;
+  font-size: 1em;
+  line-height:1.6em;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-radial-gradient(closest-side, rgba(255,255,255,1) 0, rgba(64,208,168,0.5) 100%);
+  background: -moz-radial-gradient(closest-side, rgba(255,255,255,1) 0, rgba(64,208,168,0.5) 100%);
+  background: radial-gradient(closest-side, rgba(255,255,255,1) 0, rgba(64,208,168,0.5) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+}
+
+aside hr {
+  display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+
+
+section {
+  width: 76.05%;
+   background: transparent;
+  float: left;
+  margin-left: 1.8%;
+}
+
+article {
+  margin-left: 22.16%;
+}
+
+
+ a  {
+  text-decoration:none;
+  color: rgb(82,104,145);
+  }
+  article a {
+    text-decoration:underline;
+  }
+   article a:hover {
+   color:rgb(64,208,168);
+  }
+  section a:hover {
+    text-decoration:underline;
+  }
+  
+ .htooltip span { /* The appearance of our tooltip */
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 15px 15px 15px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-left: 2px;
+    margin-top: -75px;
+    opacity: 0; /* Make it transparent */
+    padding: 10px 10px 10px 40px;
+    position: absolute;
+    text-decoration: none;
+    visibility: hidden; /* and hidden */
+    width: 350px;
+    z-index: 10;
+}
+        
+.htooltip:hover span { /* show the tooltip when hover */
+    opacity: 1;
+    visibility: visible;
+}
+    
+ 
+ nav ul {
+   list-style: none;
+   padding-right:15px;
+ }
+ nav ul li {
+  list-style: none;
+  
+ }
+ nav ul li a {
+  text-decoration: none; 
+ }
+header nav {
+ width:96%;
+   text-align:center;
+ margin-left:2.3%;
+  display:table;
+   
+}
+header nav ul 
+{
+  list-style: none;
+ display:table-row;
+ 
+ }
+header nav ul li{
+  list-style: none;
+  display: table-cell;
+ font-size: 1em;
+padding: 3px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+background:transparent;
+ }
+ 
+ 
+header nav ul li a {
+   color: rgb(14, 118, 89);
+margin: auto;
+text-decoration: none;
+ font-size: 1em;
+padding: 3px;
+padding-left:15px;
+padding-right:15px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background: rgb(255,255,255);
+background: -moz-linear-gradient(90deg, rgb(169,198,252) 30%, rgb(255,255,255) 70%);
+background: -webkit-linear-gradient(90deg, rgb(169,198,252) 30%, rgb(255,255,255) 70%);
+background: -o-linear-gradient(90deg, rgb(169,198,252) 30%, rgb(255,255,255) 70%);
+background: -ms-linear-gradient(90deg, rgb(169,198,252) 30%, rgb(255,255,255) 70%);
+background: linear-gradient(180deg, rgb(255,255,255) 30%, rgb(169,198,252) 70%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+}
+
+nav li a:link { color: rgb(82,104,145); }
+nav li a:visited { color: rgb(14, 118, 89); }
+
+nav li a:hover
+{
+  color: rgb(46,18,121);
+ text-decoration: underline;
+ 
+}
+
+header nav ul li#current{
+  -webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+  background: rgb(14, 118, 89);
+background: -moz-linear-gradient(90deg, rgb(14, 118, 89) 30%, rgb(64,208,168) 70%);
+background: -webkit-linear-gradient(90deg, rgb(14, 118, 89) 30%, rgb(64,208,168) 70%);
+background: -o-linear-gradient(90deg, rgb(14, 118, 89) 30%, rgb(64, 208, 168) 70%);
+background: -ms-linear-gradient(90deg, rgb(14, 118, 89) 30%, rgb(64, 208, 168) 70%);
+background: linear-gradient(180deg, rgb(14, 118, 89) 30%, rgb(64, 208, 168) 70%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+  
+}
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+  
+}
+header nav li a#current
+{
+  color:rgba(17,53,119, 1);
+ font-size: 1em;
+padding: 3px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background: rgb(255,255,255);
+background: -moz-linear-gradient(90deg, rgb(255,255,255) 30%, rgb(169,198,252) 70%);
+background: -webkit-linear-gradient(90deg, rgb(255,255,255) 30%, rgb(169,198,252) 70%);
+background: -o-linear-gradient(90deg, rgb(255,255,255) 30%, rgb(169,198,252) 70%);
+background: -ms-linear-gradient(90deg, rgb(255,255,255) 30%, rgb(169,198,252) 70%);
+background: linear-gradient(180deg, rgb(255,255,255) 30%, rgb(169,198,252) 70%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+  border-bottom: 0.125em solid rgb(17,73,119);
+}
+
+#volume_thumbs {
+ margin-left: auto; 
+  margin-right: auto;
+  padding-top:15px;
+  height: 308px;
+  background: rgb(255, 222, 162);
+background: -moz-linear-gradient(90deg, rgb(255, 222, 162) 40%, rgb(255, 246, 228) 100%);
+background: -webkit-linear-gradient(90deg, rgb(255, 222, 162) 40%, rgb(255, 246, 228) 100%);
+background: -o-linear-gradient(90deg, rgb(255, 222, 162) 40%, rgb(255, 246, 228) 100%);
+background: -ms-linear-gradient(90deg, rgb(255, 222, 162) 40%, rgb(255, 246, 228) 100%);
+background: linear-gradient(180deg, rgb(255, 222, 162) 40%, rgb(255, 246, 228) 100%);
+-moz-border-radius-topleft: 34px;
+-webkit-border-top-left-radius: 34px;
+border-top-left-radius: 34px;
+  clear: both;
+  text-align: center;
+  padding-top:12px;
+  color: rgb(0,0,128);
+  font-family: verdana, arial, sans-serif;
+  font-size: .8em;
+  line-height: 1em;
+}
+
+
+#volume_thumbs nav {
+ width:96%;
+   text-align:center;
+ margin-left:2.3%;
+  display:table;
+}
+
+
+#volume_thumbs nav ul 
+{
+  list-style: none;
+ display:table-row;
+ 
+ }
+ 
+#volume_thumbs nav ul li{
+  list-style: none;
+  display: table-cell;
+
+padding: 3px;
+
+background:transparent;
+
+ }
+#volume_thumbs nav ul li a {
+   color: rgb(14, 118, 89);
+margin: auto;
+ }
+ 
+#volume_thumbs  a:hover {
+    text-decoration:underline;
+    }
+
+#volume_thumbs  a:hover {
+    text-decoration:underline;
+    }
+
+footer {
+  height: 11.5em;
+  background-color:rgb(78,124,209);
+  clear: both;
+  text-align: center;
+  padding-top:.35em;
+  color: rgb(255,255,255);
+  font-family: verdana, arial, sans-serif;
+  font-size: 0.8em;
+  line-height:  1.125em;
+  -moz-border-radius-bottomright: 34px;
+-webkit-border-bottom-right-radius: 34px;
+border-bottom-right-radius: 34px;
+}
+
+footer a:link {
+	color: rgb(255,255,255); text-decoration: none;
+}
+footer a:visited {
+	color: rgb(255,255,255); text-decoration: none;
+}
+footer a:active {
+	color: rgb(255,255,255); text-decoration: none;
+}
+footer a:hover {
+	color: rgb(255,255,255); text-decoration: underline;
+}
+
+.box_1 {
+  width:33%;
+  font-family: Courier monospace serif;
+  
+}
+.box_2 {
+  width:52%;
+  text-align:center;
+}
+
+.box_with_corner {
+  background:rgb(255,255,255) url('../img/page_corner.gif') top right no-repeat;	
+	float:left;
+	margin-top:19px;
+  border:1px dashed rgb(169,198,252) ;
+ padding: 1em;
+ font-family: Courier monospace serif;
+ margin-left:1em;
+}
+
+.dream {
+  background:rgb(46,18,121);
+  padding:1em;
+}
+ 
+.featurebox_center {
+ 
+  margin:0px;
+  padding:1em;
+  border: 0.1625em solid rgb(223, 232.247);
+  font-family: verdana, arial, sans-serif;
+  font-size:.85em;
+  line-height: 1.5em;
+  color: rgb(51,51,51);
+   border:1px dashed rgb(169,198,252) ;
+
+ font-family: Courier monospace serif;
+ margin-left:1em;
+}
+
+ .ficuses {
+  background:rgb(255,255,255) url('../img/rough_wall.png') top right repeat;
+ 
+ }
+ .summer {
+  background:rgb(255,255,255) url('../img/paper_print.png') top right repeat;
+ 
+ }
+ .way_of_return {
+  background:rgb(255,255,255) url('../img/road.png') top right repeat;
+ 
+ }
+
+
+.float_left {
+  float: left;
+  margin-right: 1.0416667%;
+  }
+
+.float_right {
+  float: right;
+  margin-left: 1.0416667%;
+  padding: 8px;
+}
+       
+   .home_page_text {
+    	position:relative;
+	top:5.98em;
+	margin-bottom:-20.42em;
+	margin-left:3.6%;
+	 text-shadow: 1px 2px 0px rgba(30, 30, 30, 0.6);
+   }
+ 
+.reverse {
+  color: rgb(255,255,255);
+}
+
+
+.rotate_left
+{
+float:left;
+-ms-transform:rotate(7deg); /* IE 9 */
+-moz-transform:rotate(7deg); /* Firefox */
+-webkit-transform:rotate(7deg); /* Safari and Chrome */
+-o-transform:rotate(7deg); /* Opera */
+transform:rotate(7deg);
+}
+
+.rotate_right {
+float:right;
+-ms-transform:rotate(-8deg); /* IE 9 */
+-moz-transform:rotate(-8deg); /* Firefox */
+-webkit-transform:rotate(-8deg); /* Safari and Chrome */
+-o-transform:rotate(-8deg); /* Opera */
+transform:rotate(-8deg);
+}
+
+.round_corner_box {
+   -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;	
+background:rgb(226,252,245) ;	
+	float:left;
+ }
+
+
+.shadow {
+-ms-box-shadow: 0px 3px 5px rgb(17,73,119);
+-moz-box-shadow: 0px 3px 5px rgb(17,73,119);
+-webkit-box-shadow: 0px 3px 5px rgb(17,73,119);
+box-shadow: 0px 3px 5px rgb(17,73,119);
+padding-bottom:.4em;
+margin-left:24%;
+margin-right:10%;
+}
+
+.shadow nav {
+  padding:1em;
+}
+  
+  .white_shadow {
+  
+   text-shadow: 1px 1px 0.5px rgb(255,255,255);
+   font-family: Courier monospace serif;
+     }
+
+
+  
+.you_are_here {
+background:rgb(169,198,252);
+padding:8px;
+width:100%;
+}
+
+.rg-container {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	margin: 0;
+	padding: 1em 0;
+	color: #1a1a1a;
+}
+.rg-header {
+	margin-bottom: 1em;
+}
+.rg-hed {
+	font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.35em;
+	margin-bottom: 0.25em;
+}
+.rg-subhed {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+.rg-source-and-credit {
+	font-family: Georgia,"Times New Roman", Times,serif;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 1em;
+}
+.rg-source {
+	margin: 0;
+	float: left;
+	font-weight: bold;
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+.rg-source .pre-colon {
+	text-transform: uppercase;
+}
+/*styles for graphic*/
+table.rg-table {
+	margin: 0 0 1em 0;
+	width: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table.rg-table * {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: left;
+	color: #333;
+}
+table.rg-table thead {
+	border-bottom: 1px solid rgba(195,195,197,.3);
+}
+table.rg-table th {
+	font-weight: bold;
+	padding: 0.5em;
+	font-size: 0.85em;
+	line-height: 1.4;
+}
+table.rg-table td {
+	padding: 0.5em;
+	font-size: 0.9em;
+	line-height: 1.4;
+}
+table.rg-table .highlight td {
+	font-weight: bold;
+}
+table.rg-table tr {
+	border-bottom: 1px solid rgba(195,195,197,.3);
+	color: #222;
+}
+table.rg-table .number {
+	text-align: right;
+}
+table.rg-table.zebra tr:nth-child(even) {
+	background: rgba(195, 195, 197, 0.1);
+}
+table.rg-table tr.highlight {
+	background: #edece4;
+}
+@media screen and (max-width: 500px) {
+.rg-container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+table.rg-table {
+	display: block;
+	width: 100%;
+}
+table.rg-table tr.hide-mobile, table.rg-table th.hide-mobile, table.rg-table td.hide-mobile {
+	display: none;
+}
+table.rg-table thead {
+	display: none;
+}
+table.rg-table tbody {
+	display: block;
+	width: 100%;
+}
+table.rg-table td:last-child {
+	padding-right: 0;
+	border-bottom: 2px solid #ccc;
+}
+table.rg-table tr, table.rg-table th, table.rg-table td {
+	display: block;
+	padding: 0;
+}
+table.rg-table td[data-title]:before {
+	content: attr(data-title) ":A0";
+	font-weight: bold;
+	display: inline-block;
+	content: attr(data-title);
+	float: left;
+	margin-right: 0.5em;
+	font-size: 0.95em;
+}
+table.rg-table tr {
+	border-bottom: none;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0;
+}
+table.rg-table tr:nth-child(even) {
+	background: none;
+}
+table.rg-table td {
+	padding: 0.5em 0 0.25em 0;
+	border-bottom: 1px dotted #ccc;
+	text-align: right;
+}
+table.rg-table td:empty {
+	display: none;
+}
+table.rg-table .highlight td {
+	background: none;
+}
+table.rg-table tr.highlight {
+	background: none;
+}
+table.rg-table.zebra tr:nth-child(even) {
+	background: none;
+}
+table.rg-table.zebra td:nth-child(even) {
+	background: rgba(195, 195, 197, 0.1);
+}
+}
+
+#beat {
+   color:rgb(255,193,78);
+    position: relative;
+    -webkit-animation-name: beat; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: beat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes beat {
+      25%   {color: red; }
+    50%  {color: rgb(255,193,78); }
+    75%  {color: rgb(255,193,78); }
+  }
+#beat2 {
+   color:rgb(255,193,78);
+    position: relative;
+    -webkit-animation-name: beat; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: beat2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes beat2 { 
+     25%  {color: rgb(255,193,78); }
+   50%  {color: red; }
+    75%  {color: rgb(255,193,78); }
+ }
+ 
+#beat3 {
+   color:rgb(255,193,78);
+    position: relative;
+    -webkit-animation-name: beat; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: beat3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes beat3 {
+     25%  {color: rgb(255,193,78); }
+     50%  {color: rgb(255,193,78); }
+     75%  {color: red; }
+ }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid rgb(153,153,153);
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
