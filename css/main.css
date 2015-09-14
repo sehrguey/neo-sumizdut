@@ -99,7 +99,7 @@ body {
   margin-top:1.0416667%;
   margin-bottom:1.0416667%;
   color:rgb(102,102,102);
-  background-color: rgb(224,224,224);
+  background-color: rgb(255,255,255);
 
 }
 img {
@@ -240,7 +240,7 @@ article {
     position: absolute;
     text-decoration: none;
     visibility: hidden; /* and hidden */
-    width: 350px;
+    width: 305px;
     z-index: 10;
 }
         
@@ -467,6 +467,14 @@ footer a:hover {
  margin-left:1em;
 }
 
+.centered {
+    margin-left: 8%;
+    margin-right: auto;
+  }
+  .centered2 {
+    margin-left: 15%;
+    margin-right: auto;
+  }
 .dream {
   background:rgb(46,18,121);
   padding:1em;
@@ -487,18 +495,25 @@ footer a:hover {
  margin-left:1em;
 }
 
+.abulala {
+  background:rgb(255,255,255) url('../img/desert.png') top right repeat;
+  }
+
  .ficuses {
   background:rgb(255,255,255) url('../img/rough_wall.png') top right repeat;
- 
- }
+  }
+  
+   .nazar {
+  background:rgb(255,255,255) url('../img/plot.png') top right repeat-y;
+  }
+  
  .summer {
   background:rgb(255,255,255) url('../img/paper_print.png') top right repeat;
- 
- }
+  }
+  
  .way_of_return {
   background:rgb(255,255,255) url('../img/road.png') top right repeat;
- 
- }
+  }
 
 
 .float_left {
