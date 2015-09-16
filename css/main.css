@@ -511,8 +511,68 @@ footer a:hover {
   background:rgb(255,255,255) url('../img/paper_print.png') top right repeat;
   }
   
+.ulysses {
+  background:rgb(255,255,255) url('../img/ulysses.png') top right repeat;
+  }  
+  
+  .ulysses-1 {
+  background:rgb(255,255,255) url('../img/ulysses-1.png') top right repeat;
+  }  
+  
+  .ulysses-2 {
+  background:rgb(255,255,255) url('../img/ulysses-2.png') top right repeat;
+  }  
+  
+   .ulysses-3 {
+  background:rgb(255,255,255) url('../img/ulysses-3.png') top right repeat;
+  } 
+  .ulysses-4 {
+  background:rgb(255,255,255) url('../img/ulysses-4.png') top right repeat;
+  }
+.ulysses-5 {
+  background:rgb(255,255,255) url('../img/ulysses-5.png') top right repeat;
+  }
+  .ulysses-6 {
+  background:rgb(255,255,255) url('../img/ulysses-6.png') top right repeat;
+  }
+  .ulysses-7 {
+  background:rgb(255,255,255) url('../img/ulysses-7.png') top right repeat;
+  }
+  .ulysses-8 {
+  background:rgb(255,255,255) url('../img/ulysses-8.png') top right repeat;
+  }
+  .ulysses-9 {
+  background:rgb(255,255,255) url('../img/ulysses-9.png') top right repeat;
+  }
+  .ulysses-10 {
+  background:rgb(255,255,255) url('../img/ulysses-10.png') top right repeat;
+  }
+  .ulysses-11 {
+  background:rgb(255,255,255) url('../img/ulysses-11.png') top right repeat;
+  }
+  .ulysses-12 {
+  background:rgb(255,255,255) url('../img/ulysses-12.png') top right repeat;
+  }
+  .ulysses-13 {
+  background:rgb(255,255,255) url('../img/ulysses-13.png') top right repeat;
+  }
+  .ulysses-14 {
+  background:rgb(255,255,255) url('../img/ulysses-14.png') top right repeat;
+  }
+  .ulysses-15 {
+  background:rgb(255,255,255) url('../img/ulysses-15.png') top right repeat;
+  }
+  .ulysses-16 {
+  background:rgb(255,255,255) url('../img/ulysses-16.png') top right repeat;
+  }
+  .ulysses-17 {
+  background:rgb(255,255,255) url('../img/ulysses-17.png') top right repeat;
+  }
+  .ulysses-18 {
+  background:rgb(255,255,255) url('../img/ulysses-18.png') top right repeat;
+  }
  .way_of_return {
-  background:rgb(255,255,255) url('../img/road.png') top right repeat;
+  background:rgb(255,255,255) url('../img/road.png') top left repeat-y;
   }
 
 
@@ -595,160 +655,13 @@ background:rgb(169,198,252);
 padding:8px;
 width:100%;
 }
+ 
 
-.rg-container {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1;
-	margin: 0;
-	padding: 1em 0;
-	color: #1a1a1a;
-}
-.rg-header {
-	margin-bottom: 1em;
-}
-.rg-hed {
-	font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 1.35em;
-	margin-bottom: 0.25em;
-}
-.rg-subhed {
-	font-size: 1em;
-	line-height: 1.4em;
-}
-.rg-source-and-credit {
-	font-family: Georgia,"Times New Roman", Times,serif;
-	width: 100%;
-	overflow: hidden;
-	margin-top: 1em;
-}
-.rg-source {
-	margin: 0;
-	float: left;
-	font-weight: bold;
-	font-size: 0.75em;
-	line-height: 1.5em;
-}
-.rg-source .pre-colon {
-	text-transform: uppercase;
-}
-/*styles for graphic*/
-table.rg-table {
-	margin: 0 0 1em 0;
-	width: 100%;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1em;
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-table.rg-table * {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	text-align: left;
-	color: #333;
-}
-table.rg-table thead {
-	border-bottom: 1px solid rgba(195,195,197,.3);
-}
-table.rg-table th {
-	font-weight: bold;
-	padding: 0.5em;
-	font-size: 0.85em;
-	line-height: 1.4;
-}
-table.rg-table td {
-	padding: 0.5em;
-	font-size: 0.9em;
-	line-height: 1.4;
-}
-table.rg-table .highlight td {
-	font-weight: bold;
-}
-table.rg-table tr {
-	border-bottom: 1px solid rgba(195,195,197,.3);
-	color: #222;
-}
-table.rg-table .number {
-	text-align: right;
-}
-table.rg-table.zebra tr:nth-child(even) {
-	background: rgba(195, 195, 197, 0.1);
-}
-table.rg-table tr.highlight {
-	background: #edece4;
-}
-@media screen and (max-width: 500px) {
-.rg-container {
-	max-width: 500px;
-	margin: 0 auto;
-}
-table.rg-table {
-	display: block;
-	width: 100%;
-}
-table.rg-table tr.hide-mobile, table.rg-table th.hide-mobile, table.rg-table td.hide-mobile {
-	display: none;
-}
-table.rg-table thead {
-	display: none;
-}
-table.rg-table tbody {
-	display: block;
-	width: 100%;
-}
-table.rg-table td:last-child {
-	padding-right: 0;
-	border-bottom: 2px solid #ccc;
-}
-table.rg-table tr, table.rg-table th, table.rg-table td {
-	display: block;
-	padding: 0;
-}
-table.rg-table td[data-title]:before {
-	content: attr(data-title) ":A0";
-	font-weight: bold;
-	display: inline-block;
-	content: attr(data-title);
-	float: left;
-	margin-right: 0.5em;
-	font-size: 0.95em;
-}
-table.rg-table tr {
-	border-bottom: none;
-	margin: 0 0 1em 0;
-	padding: 0.5em 0;
-}
-table.rg-table tr:nth-child(even) {
-	background: none;
-}
-table.rg-table td {
-	padding: 0.5em 0 0.25em 0;
-	border-bottom: 1px dotted #ccc;
-	text-align: right;
-}
-table.rg-table td:empty {
-	display: none;
-}
-table.rg-table .highlight td {
-	background: none;
-}
-table.rg-table tr.highlight {
-	background: none;
-}
-table.rg-table.zebra tr:nth-child(even) {
-	background: none;
-}
-table.rg-table.zebra td:nth-child(even) {
-	background: rgba(195, 195, 197, 0.1);
-}
-}
+.tftable {font-size:1em;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+.tftable th {font-size:1em;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.tftable tr {background-color:#d4e3e5;}
+.tftable td {font-size:1em;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+.tftable tr:hover {background-color:#ffffff;}
 
 #beat {
    color:rgb(255,193,78);
