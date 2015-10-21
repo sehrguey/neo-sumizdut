@@ -141,6 +141,31 @@ div {
   width:100%;
   margin:auto;
 }
+ 
+ dfn {
+   color:rgb(46,18,121);
+   font-weight:bold;
+ }
+ 
+   dl {
+    border: 3px double #ccc;
+    padding: 0.5em;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 36%;
+    text-align: right;
+    font-weight: bold;
+    color: rgb(75,144,125);
+  }
+  dt:after {
+    content: " ==";
+  }
+  dd {
+    margin: 0 0 0 37%;
+    padding: 0 0 0.5em 0;
+  }
    
    
    header img{
@@ -227,6 +252,8 @@ article {
   section a:hover {
     text-decoration:underline;
   }
+  
+ 
   
  .htooltip span { /* The appearance of our tooltip */
     background-color: rgba(0,0,0, 0.8);
@@ -479,6 +506,7 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
     text-align:center;
+    
   }
 .dream {
   background:rgb(46,18,121);
@@ -584,7 +612,13 @@ footer a:hover {
 .float_left {
   float: left;
   margin-right: 1.0416667%;
-  }
+    }
+    
+    .float_left_padded {
+  float: left;
+  margin-right: 1.0416667%;
+   padding: 8px;
+    }
 
 .float_right {
   float: right;
@@ -647,7 +681,11 @@ text-align:center;
 .shadow nav {
   padding:1em;
 }
-  
+ 
+ .sub {
+   vertical-align:sub;
+ }
+ 
   .white_shadow {
   
    text-shadow: 1px 1px 0.5px rgb(255,255,255);
@@ -665,8 +703,8 @@ width:100%;
  
 
 .tftable {font-size:1em;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
-.tftable th {font-size:1em;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
-.tftable tr {background-color:#d4e3e5;}
+.tftable th {font-size:1em;background-color:rgb(255,222,162);border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.tftable tr {background-color:rgb(226,252,245);}
 .tftable td {font-size:1em;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
 .tftable tr:hover {background-color:#ffffff;}
 
