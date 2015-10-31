@@ -238,6 +238,10 @@ article {
   margin-left: 22.16%;
 }
 
+.go-top {
+  position:relative;
+  margin-left:-60em;
+}
 
  a  {
   text-decoration:none;
