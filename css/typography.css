@@ -90,8 +90,16 @@ font-size: 1.17em;
     color:rgb(145,100,17);
   }
  .crossout {
-   text-decoration:line-through;
+   text-decoration:line-through; 
  }
+ .over {
+   text-decoration:overline; 
+ }
+ .under {
+   text-decoration:underline ; 
+ }
+ .bold {font-weight:bold;}
+ ul.nobull li{list-style: none;}
  ul.circle {list-style-type: circle;}
 ul.square {list-style-type: square;}
 ol.upper-roman {list-style-type: upper-roman;}
